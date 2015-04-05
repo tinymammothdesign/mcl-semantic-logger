@@ -1,4 +1,19 @@
 {
+    "name": "tinymammothdesign/mcl-semantic-logger",
+    "description": "Lightweight, OOP based semantic logging library",
+    "version": "1.0.0",
+    "type": "library",
+    "keywords": ["logging", "semantic-logger", "oop"],
+    "time": "2015",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adrian Grayson-Widarsito",
+            "email": "adrian@tinymammothdesign.com.au",
+            "homepage": "http://tinymammothdesign.com.au",
+            "role": "Developer"
+        }
+    ],
     "require": {
         "zeptech/annotations": "1.1.0"
     },
