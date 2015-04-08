@@ -15,7 +15,8 @@
         }
     ],
     "require": {
-        "zeptech/annotations": "1.1.0"
+        "zeptech/annotations": "1.1.0",
+        "slim/slim": "2.*"
     },
 
     "autoload": {
