@@ -2,6 +2,7 @@
 
 namespace SemanticLogger\LogEvent\SlimRequestLogEvent;
 
+use SemanticLogger\LogEvent\AbstractLogEvent;
 use Slim\Http\Request;
 
 abstract class SlimRequestLogEvent extends AbstractLogEvent{
