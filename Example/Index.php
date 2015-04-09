@@ -10,5 +10,5 @@ class UserRegisteredEvent extends \SemanticLogger\LogEvent\AbstractLogEvent{
 }
 
 $event = new UserRegisteredEvent();
-$logger = new \SemanticLogger\Logger\Logger("test.log");
+$logger = new \SemanticLogger\Logger\LogEntriesLogger\LogEntriesLogger("Test Log", "c0acd2c6-4037-4cd0-b52a-3ecedfb933ec");
 $logger->persist($event);

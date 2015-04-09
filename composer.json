@@ -17,7 +17,8 @@
     "require": {
         "zeptech/annotations": "1.1.0",
         "slim/slim": "2.*",
-        "monolog/monolog": "*"
+        "monolog/monolog": "*",
+        "logentries/logentries-monolog-handler": "dev-master"
     },
 
     "autoload": {

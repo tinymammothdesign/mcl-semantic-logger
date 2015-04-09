@@ -4,8 +4,60 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "19b7847a9ab1ef98293431307555a0f9",
+    "hash": "5140f2bbe02034aa9c4e072ace19bf38",
     "packages": [
+        {
+            "name": "logentries/logentries-monolog-handler",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/logentries/logentries-monolog-handler.git",
+                "reference": "e1737adaac0b71440a4e5b6944a68c89f47e9479"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/logentries/logentries-monolog-handler/zipball/e1737adaac0b71440a4e5b6944a68c89f47e9479",
+                "reference": "e1737adaac0b71440a4e5b6944a68c89f47e9479",
+                "shasum": ""
+            },
+            "require": {
+                "monolog/monolog": ">=1.4"
+            },
+            "require-dev": {
+                "mockery/mockery": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Logentries": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Johannes Schickling",
+                    "email": "schickling.j@gmail.com"
+                },
+                {
+                    "name": "Mark Lacomber",
+                    "email": "marklacomber@gmail.com"
+                }
+            ],
+            "description": "A handler for Monolog that sends messages to Logentries.com.",
+            "homepage": "https://github.com/logentries/logentries-monolog-handler",
+            "keywords": [
+                "laravel",
+                "log",
+                "logentries",
+                "logging",
+                "monolog",
+                "symfony"
+            ],
+            "time": "2014-11-27 09:24:01"
+        },
         {
             "name": "monolog/monolog",
             "version": "1.13.1",
@@ -207,7 +259,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "logentries/logentries-monolog-handler": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
