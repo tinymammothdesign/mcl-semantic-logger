@@ -9,6 +9,12 @@ class UserRegisteredEvent extends \SemanticLogger\LogEvent\AbstractLogEvent{
 
 }
 
+class Destination implements SemanticLogger\Logger\LogEntriesLogger\LogEntriesDestination\ILogEntriesDestination{
+
+    public function getToken(){
+        return "3613bf6b-af23-418e-a1aa-0be56ffb1808";
+    }
+}
 $event = new UserRegisteredEvent();
-$logger = new \SemanticLogger\Logger\LogEntriesLogger\LogEntriesLogger("Test Log", "c0acd2c6-4037-4cd0-b52a-3ecedfb933ec");
+$logger = new \SemanticLogger\Logger\LogEntriesLogger\LogEntriesLogger(new Destination());
 $logger->persist($event);

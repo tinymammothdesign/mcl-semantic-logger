@@ -11,7 +11,7 @@
  * @extended By Adrian G. W.
  */
 
-namespace SemanticLogger\Logger\Formatters;
+namespace SemanticLogger\Logger\LogEntriesLogger\Formatters;
 use Monolog\Formatter\FormatterInterface;
 
 /**
